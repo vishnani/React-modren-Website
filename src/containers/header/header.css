@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Merriweather:ital,wght@1,300&family=Nunito:wght@500&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+.header {
+    display: flex;
+    font-family: 'Manrope', sans-serif;
+}
+
+.headar-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+}
+
+.headar-content h1 {
+    /* font-family: var(--font-family); */
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    font-weight: bolder;
+    letter-spacing: -0.04em;
+}
+
+.headar-content p {
+    font-family: "Manrope";
+    font-style: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #81AFDD;
+    margin-top: 1.5rem;
+}
+
+.headerinput {
+    width: 100%;
+    margin: 2rem o 1rem;
+    display: flex;
+
+}
+
+.headerinput input {
+    background: hsl(210, 89%, 18%);
+    border-radius: 5px 0px 0px 5px;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--color-footer);
+    border: 2px solid var(--color-footer);
+    padding: 0 1rem;
+    color: #fff;
+    outline: none;
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+
+}
+
+.headerinput button {
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+
+
+    /* width: 100%; */
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    background: #FF4820;
+    border-radius: 0px 5px 5px 0px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    padding: 0 1rem;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0 1rem;
+
+}
+
+.peoplerimages {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.peoplerimages img {
+    width: 181.79px;
+    height: 38px;
+}
+
+.peoplerimages p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 38px;
+    color: #fff;
+    margin: 0 0 0 1rem;
+    text-align: center;
+
+}
+
+.aiImage {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.aiImage img {
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width:1050px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .headar-content {
+        margin: 0 0 rem;
+    }
+
+}
+
+@media screen and (max-width:650px) {
+    .header h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .header p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .peoplerimages {
+        flex-direction: column;
+
+    }
+
+    .peoplerimages p {
+        margin: 0
+    }
+
+    .headerinput input,
+    .headerinput button {
+        font-size: 16px;
+        line-height: 24px;
+
+    }
+
+}
+
+@media screen and (max-width:490px) {
+    .header h1 {
+        font-size: 36px;
+        line-height: 48px;
+        margin-right:-30px 
+
+    }
+    .headar-content{
+        margin: 0;
+    }
+
+    .header p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .headerinput input,
+    .headerinput button {
+        font-size: 12px;
+        line-height: 16px;
+
+    }
+}
